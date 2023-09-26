@@ -12,7 +12,7 @@ pipeline {
         label 'ub-11'
     }
     stages {
-        stage('checkout') {
+        stage('Checkout') {
             steps {
                  script{
                         dir("terraform")
